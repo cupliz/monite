@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react'
+import {useHistory} from 'react-router-dom'
 import Navbar from 'components/navbar'
 import Header from 'components/header'
 import Footer from 'components/footer'
 
 const Guest = (props) => {
+  let [basket, addBasket] = useState([])
+  const history = useHistory()
+
   const hotProducts = [
     { id: 1, price: 129, task: 'Replace the oil, air, fuel filter', dealer: 'Eastside Auto', image: 'product1.jpg', sale: 40, rate: 80 },
     { id: 2, price: 88, task: 'Check the battery and charging system', dealer: 'Horizon Garage', image: 'product2.jpg', sale: 0, rate: 80 },
@@ -14,12 +18,15 @@ const Guest = (props) => {
     { id: 7, price: 245, task: 'Use a scan tool to read trouble code', dealer: 'Eastside Auto', image: 'product7.jpg', sale: 0, rate: 80 },
     { id: 8, price: 120, task: 'Check Brake Pads/Liners, Brake Discs/Drums', dealer: 'Horizon Garage', image: 'product8.jpg', sale: 0, rate: 80 },
   ]
-  let [basket, addBasket] = useState([])
   const add2Basket = (data) => {
     const newBasket = [...basket.filter(b=> b.id !== data.id)]
     newBasket.push(data)
     localStorage.setItem('basket', JSON.stringify(newBasket))
     addBasket(newBasket)
+    const confirm = window.confirm(` Order service "${data.task}" \n Garage: ${data.dealer} \n\n Please go to login page to process the order.`)
+    if(confirm){
+      history.push('/login')
+    }
   }
   useEffect(() => {
     const basketLocal = localStorage.getItem('basket')
@@ -112,7 +119,7 @@ const Guest = (props) => {
             <div className="category-product">
               <div className="navbar nav-menu">
                 <div className="navbar-collapse">
-                  <h1>Trending</h1>
+                  {/* <h1>Trending</h1> */}
                   <ul className="nav navbar-nav">
                     <li className="active"><a data-toggle="tab" href="##tab-1">Hot Products</a></li>
                     <li className=" "><a data-toggle="tab" href="##tab-2">New Arrivals</a></li>

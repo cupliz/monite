@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = ({ basket }) => {
+  const [toggleCat, setToggleCat] = useState(false)
+  const [searchCategory, setSearchCategory] = useState('Categories')
   const getTotal = () => {
     const total = basket.reduce(function (a, b) {
       return a + b.price
@@ -24,13 +26,13 @@ const Header = ({ basket }) => {
             <form id="search_mini_form" onSubmit={search}>
               <input id="search" type="text" name="q" placeholder="Search entire store here..." className="searchbox" maxLength="128" />
               <ul className="categories-filter animate-dropdown">
-                <li className="dropdown"> <a className="dropdown-toggle" data-toggle="dropdown" href="#category">Categories <b className="caret"></b></a>
+                <li className={`dropdown ${toggleCat ? 'open' : ''}`}>
+                  <a className="dropdown-toggle" onClick={() => setToggleCat(!toggleCat)}>{searchCategory} <b className="caret"></b></a>
                   <ul className="dropdown-menu" role="menu" >
-                    <li className="menu-header">Computer</li>
-                    <li role="presentation"><a role="menuitem" tabIndex="-1" href="#category">- Clothing</a></li>
-                    <li role="presentation"><a role="menuitem" tabIndex="-1" href="#category">- Electronics</a></li>
-                    <li role="presentation"><a role="menuitem" tabIndex="-1" href="#category">- Shoes</a></li>
-                    <li role="presentation"><a role="menuitem" tabIndex="-1" href="#category">- Watches</a></li>
+                    <li role="presentation"><a role="menuitem" tabIndex="-1" onClick={() => setSearchCategory('Dealer')}>- Dealer</a></li>
+                    <li role="presentation"><a role="menuitem" tabIndex="-1" onClick={() => setSearchCategory('Service')}>- Service</a></li>
+                    {/* <li className="menu-header">Dealer</li> */}
+                    {/* <li role="presentation"><a role="menuitem" tabIndex="-1">- Dealer</a></li> */}
                   </ul>
                 </li>
               </ul>
