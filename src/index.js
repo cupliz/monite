@@ -6,6 +6,7 @@ import { Router, Route, Switch } from "react-router-dom"
 import Guest from "views/Guest.js"
 import Garage from "views/Garage.js"
 import Admin from "views/Admin.js"
+import Login from "views/Login.js"
 
 var hist = createBrowserHistory()
 
@@ -14,6 +15,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/garage" component={Garage} />
       <Route path="/admin" component={Admin} />
+      <Route path="/login" component={Login} />
       <Route path="/" component={Guest} />
     </Switch>
   </Router>,

@@ -18,20 +18,20 @@ const BestSell = () => (
               <div className="item">
                 <div className="item-inner">
                   <div className="item-img">
-                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html"> <img alt="" src="products-images/product14.jpg" /> </a>
+                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail"> <img alt="" src="products-images/product14.jpg" /> </a>
                       <div className="new-label new-top-left">new</div>
                       <div className="box-hover">
                         <ul className="add-to-links">
-                          <li><a className="link-quickview" href="quick_view.html"></a> </li>
-                          <li><a className="link-wishlist" href="wishlist.html"></a> </li>
-                          <li><a className="link-compare" href="compare.html"></a> </li>
+                          <li><a className="link-quickview" href="quick_view"></a> </li>
+                          <li><a className="link-wishlist" href="wishlist"></a> </li>
+                          <li><a className="link-compare" href="compare"></a> </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div className="item-info">
                     <div className="info-inner">
-                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html">Assembly Rcoker Arm Intake Interior Product</a> </div>
+                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail">Assembly Rcoker Arm Intake Interior Product</a> </div>
                       <div className="brand">Linen</div>
                       <div className="rating">
                         <div className="ratings">
@@ -57,19 +57,19 @@ const BestSell = () => (
               <div className="item">
                 <div className="item-inner">
                   <div className="item-img">
-                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html"> <img alt="" src="products-images/product2.jpg" /> </a>
+                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail"> <img alt="" src="products-images/product2.jpg" /> </a>
                       <div className="box-hover">
                         <ul className="add-to-links">
-                          <li><a className="link-quickview" href="quick_view.html"></a> </li>
-                          <li><a className="link-wishlist" href="wishlist.html"></a> </li>
-                          <li><a className="link-compare" href="compare.html"></a> </li>
+                          <li><a className="link-quickview" href="quick_view"></a> </li>
+                          <li><a className="link-wishlist" href="wishlist"></a> </li>
+                          <li><a className="link-compare" href="compare"></a> </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div className="item-info">
                     <div className="info-inner">
-                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html">Assembly Rcoker Arm Intake Interior Product</a> </div>
+                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail">Assembly Rcoker Arm Intake Interior Product</a> </div>
                       <div className="brand">Vincent</div>
                       <div className="item-content">
                         <div className="rating">
@@ -96,19 +96,19 @@ const BestSell = () => (
               <div className="item">
                 <div className="item-inner">
                   <div className="item-img">
-                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html"> <img alt="" src="products-images/product11.jpg" /> </a>
+                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail"> <img alt="" src="products-images/product11.jpg" /> </a>
                       <div className="box-hover">
                         <ul className="add-to-links">
-                          <li><a className="link-quickview" href="quick_view.html"></a> </li>
-                          <li><a className="link-wishlist" href="wishlist.html"></a> </li>
-                          <li><a className="link-compare" href="compare.html"></a> </li>
+                          <li><a className="link-quickview" href="quick_view"></a> </li>
+                          <li><a className="link-wishlist" href="wishlist"></a> </li>
+                          <li><a className="link-compare" href="compare"></a> </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div className="item-info">
                     <div className="info-inner">
-                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html">Assembly Rcoker Arm Intake Interior Product</a> </div>
+                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail">Assembly Rcoker Arm Intake Interior Product</a> </div>
                       <div className="brand">justrin</div>
                       <div className="item-content">
                         <div className="rating">
@@ -135,20 +135,20 @@ const BestSell = () => (
 
                 <div className="item-inner">
                   <div className="item-img">
-                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html"> <img alt="" src="products-images/product12.jpg" /> </a>
+                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail"> <img alt="" src="products-images/product12.jpg" /> </a>
                       <div className="new-label new-top-left">new</div>
                       <div className="box-hover">
                         <ul className="add-to-links">
-                          <li><a className="link-quickview" href="quick_view.html"></a> </li>
-                          <li><a className="link-wishlist" href="wishlist.html"></a> </li>
-                          <li><a className="link-compare" href="compare.html"></a> </li>
+                          <li><a className="link-quickview" href="quick_view"></a> </li>
+                          <li><a className="link-wishlist" href="wishlist"></a> </li>
+                          <li><a className="link-compare" href="compare"></a> </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div className="item-info">
                     <div className="info-inner">
-                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html">Assembly Rcoker Arm Intake Interior Product</a> </div>
+                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail">Assembly Rcoker Arm Intake Interior Product</a> </div>
                       <div className="brand">Cello</div>
                       <div className="rating">
                         <div className="ratings">
@@ -174,19 +174,19 @@ const BestSell = () => (
               <div className="item">
                 <div className="item-inner">
                   <div className="item-img">
-                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html"> <img alt="" src="products-images/product10.jpg" /> </a>
+                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail"> <img alt="" src="products-images/product10.jpg" /> </a>
                       <div className="box-hover">
                         <ul className="add-to-links">
-                          <li><a className="link-quickview" href="quick_view.html"></a> </li>
-                          <li><a className="link-wishlist" href="wishlist.html"></a> </li>
-                          <li><a className="link-compare" href="compare.html"></a> </li>
+                          <li><a className="link-quickview" href="quick_view"></a> </li>
+                          <li><a className="link-wishlist" href="wishlist"></a> </li>
+                          <li><a className="link-compare" href="compare"></a> </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div className="item-info">
                     <div className="info-inner">
-                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html">Assembly Rcoker Arm Intake Interior Product</a> </div>
+                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail">Assembly Rcoker Arm Intake Interior Product</a> </div>
                       <div className="brand">Zacharias</div>
                       <div className="rating">
                         <div className="ratings">
@@ -212,19 +212,19 @@ const BestSell = () => (
               <div className="item">
                 <div className="item-inner">
                   <div className="item-img">
-                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html"> <img alt="" src="products-images/product4.jpg" /> </a>
+                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail"> <img alt="" src="products-images/product4.jpg" /> </a>
                       <div className="box-hover">
                         <ul className="add-to-links">
-                          <li><a className="link-quickview" href="quick_view.html"></a> </li>
-                          <li><a className="link-wishlist" href="wishlist.html"></a> </li>
-                          <li><a className="link-compare" href="compare.html"></a> </li>
+                          <li><a className="link-quickview" href="quick_view"></a> </li>
+                          <li><a className="link-wishlist" href="wishlist"></a> </li>
+                          <li><a className="link-compare" href="compare"></a> </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div className="item-info">
                     <div className="info-inner">
-                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html">Assembly Rcoker Arm Intake Interior Product</a> </div>
+                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail">Assembly Rcoker Arm Intake Interior Product</a> </div>
                       <div className="brand">Cello</div>
                       <div className="rating">
                         <div className="ratings">
@@ -250,19 +250,19 @@ const BestSell = () => (
               <div className="item">
                 <div className="item-inner">
                   <div className="item-img">
-                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html"> <img alt="" src="products-images/product5.jpg" /> </a>
+                    <div className="item-img-info"> <a className="product-image" title="Assembly Rcoker Arm Intake Interior Product" href="product_detail"> <img alt="" src="products-images/product5.jpg" /> </a>
                       <div className="box-hover">
                         <ul className="add-to-links">
-                          <li><a className="link-quickview" href="quick_view.html"></a> </li>
-                          <li><a className="link-wishlist" href="wishlist.html"></a> </li>
-                          <li><a className="link-compare" href="compare.html"></a> </li>
+                          <li><a className="link-quickview" href="quick_view"></a> </li>
+                          <li><a className="link-wishlist" href="wishlist"></a> </li>
+                          <li><a className="link-compare" href="compare"></a> </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div className="item-info">
                     <div className="info-inner">
-                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail.html">Assembly Rcoker Arm Intake Interior Product</a> </div>
+                      <div className="item-title"> <a title="Assembly Rcoker Arm Intake Interior Product" href="product_detail">Assembly Rcoker Arm Intake Interior Product</a> </div>
                       <div className="brand">Linen</div>
                       <div className="rating">
                         <div className="ratings">

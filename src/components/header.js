@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from 'react-router-dom'
 
 const Header = ({ basket }) => {
   const getTotal = () => {
@@ -14,7 +15,7 @@ const Header = ({ basket }) => {
     <div className="container">
       <div className="row">
         <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12 logo-block">
-          <div className="logo"> <a title="Harrier" href="#index-2"><img alt="Harrier" src="/images/logo.png" /> </a> </div>
+          <div className="logo"> <Link title="Harrier" to="/"><img alt="Harrier" src="/images/logo.png" /> </Link> </div>
         </div>
         <div className="col-lg-7 col-md-6 col-sm-6 col-xs-3 hidden-xs category-search-form">
           <div className="contact-row">
