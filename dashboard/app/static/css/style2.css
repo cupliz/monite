@@ -1,0 +1,122 @@
+@import url("gradient.css");
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(../fonts/Roboto-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'), url(../fonts/Permanent-Marker.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Material-Icons.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  /* -webkit-font-feature-settings: 'liga'; */
+  -webkit-font-smoothing: antialiased;
+}
+
+.body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 120%;
+  min-height: 100vh;
+  padding: 15px 10px;
+  background: #2d88bc url(../img/footer-pat.gif) repeat 0 0;
+}
+
+.tap-target-wrapper {
+  right: -331px;
+  bottom: -327px;
+  position: fixed;
+}
+
+.tap-target-content {
+  width: 500px;
+  height: 500px;
+  left: 150px;
+  top: 150px;
+}
+
+.tap-target-wave {
+  top: 45%;
+  left: 45%;
+  width: 100px;
+  height: 100px;
+}
+
+.row {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.card {
+  margin: 8px 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.card-content {
+  padding-top: 7px !important;
+}
+
+.box1 {
+  height: 50px;
+  font-family: 'Permanent Marker';
+  font-size: 35px;
+}
+
+.box1>.card-content {
+  margin-top: -10px !important;
+}
+
+.box2 {
+  height: 50px;
+  font-size: 25px !important;
+}
+
+.box8>.card-content {
+  padding: 0;
+  font-size: 25px !important;
+}
+
+.box-full {
+  height: 760px !important;
+}
+
+.box-half {
+  height: 372px !important;
+}
+
+.box-title {
+  padding: 0.2% 20px;
+  border-bottom: 1px dashed #fff;
+  font-size: 22px;
+}
+
+.box-title>.material-icons {
+  padding-top: 4px;
+}

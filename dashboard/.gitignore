@@ -1,0 +1,14 @@
+# build output
+out
+.next
+
+# dependencies
+node_modules
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# logs
+npm-debug.log
+
+.env
