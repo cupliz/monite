@@ -1,18 +1,24 @@
 import React, { useState } from 'react'
 import { useHistory } from "react-router-dom";
+import { useDispatch } from "react-redux";
+
+import { setAuth } from '../../store/action'
 
 export default function index() {
     const [password, setPassword] = useState("");
     const [name, setName] = useState("");
     const history = useHistory()
+
+    const dispatch = useDispatch();
+
     function login(e) {
         e.preventDefault()
-        if (name === "admin" || "user" && password === "test") {
-            localStorage.setItem("auth", name)
+        if ((name === "admin" || "user") && password === "test") {
+            dispatch(setAuth(name, password))
             if (name === "admin") {
-                history.push("/")
+                history.push("/admin")
             } else {
-                history.push("/")
+                history.push("/user")
             }
         }
     }
